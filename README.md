@@ -4,6 +4,17 @@
 
 - matchers의 name과 value, 레이블을 활용하여 알람을 생성 및 소거하는 API를 활용
 
+### swagger editor
+
+```bash
+swagger: '2.0'
+# 내용 추가
+host: localhost:9093
+hostPath: /api/v2
+schemes:
+- http
+```
+
 ---
 
 ### Command
